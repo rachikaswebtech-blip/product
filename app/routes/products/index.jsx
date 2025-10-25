@@ -13,6 +13,7 @@ const shop = "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";
 const token = "product-store-122359.myshopify.com";
 
 
+
   const query = `
     {
       products(first: 10) {

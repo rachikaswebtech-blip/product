@@ -6,8 +6,11 @@ export const loader = async () => {
 //   const shop = import.meta.env.VITE_SHOPIFY_APP_URL;
 // const token = import.meta.env.VITE_SHOPIFY_ACCESS_TOKEN;
 
-const shop = process.env.SHOPIFY_APP_URL;
-const token = process.env.SHOPIFY_ACCESS_TOKEN;
+// const shop = process.env.SHOPIFY_APP_URL;
+// const token = process.env.SHOPIFY_ACCESS_TOKEN;
+
+const shop = "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";
+const token = "product-store-122359.myshopify.com";
 
 
   const query = `

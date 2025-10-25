@@ -3,14 +3,17 @@ import { useLoaderData } from "react-router";
 
 
 export const loader = async () => {
-//   const shop = import.meta.env.VITE_SHOPIFY_APP_URL;
-// const token = import.meta.env.VITE_SHOPIFY_ACCESS_TOKEN;
+const shop = import.meta.env.VITE_SHOPIFY_APP_URL;
+console.log( shop);
+const token = import.meta.env.VITE_SHOPIFY_ACCESS_TOKEN;
+console.log( token);
 
 // const shop = process.env.SHOPIFY_APP_URL;
+// console.log("shop =",shop);
 // const token = process.env.SHOPIFY_ACCESS_TOKEN;
 
-const shop = "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";
-const token = "product-store-122359.myshopify.com";
+// const shop = "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";
+// const token = "product-store-122359.myshopify.com";
 
 
 
